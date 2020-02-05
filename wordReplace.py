@@ -1,18 +1,25 @@
 from docx import Document
 import os
 
-OLDPATH = "C:\\Users\\horatio xu\\Desktop\\files\\personal\\CV"
-PATH = "C:\\Users\\horatio xu\\Desktop"
+# Variables
+COMPANY_NAME = "Microsoft"
 DICT = {
     "send_date": "Feb 05 2020",
     "namecompany": "MicroSoft",
     "company_address": "Vancouver, BC, CA"
 }
 
+
+OLDPATH = "C:\\Users\\horatio xu\\Desktop\\files\\personal\\CV"
+NEW_FOLDER_PATH = "C:\\Users\horatio xu\\Desktop\\files\personal\\Company\\" + COMPANY_NAME
+
+
 def main():
+    mkdir(NEW_FOLDER_PATH)
+    file_path = NEW_FOLDER_PATH
     for fileName in os.listdir(OLDPATH):
         oldFile = OLDPATH + "\\" + fileName
-        newFile = PATH + "\\" + fileName
+        newFile = file_path + "\\" + fileName
         if oldFile.split(".")[1] == 'docx':
             document = Document(oldFile)
             document = check(document)
@@ -38,6 +45,16 @@ def check(document):
                     para.runs[i].text = para.runs[i].text.replace(key, value)
 
     return document
+
+# Create a new folder
+def mkdir(path):
+    folder = os.path.exists(path)
+    if not folder:
+        os.makedirs(path)
+        print('folder created')
+
+    else:
+        print(path + 'folder already exited')
 
 
 if __name__ == '__main__':
