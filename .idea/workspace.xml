@@ -16,13 +16,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/docxEditingScript" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XOyRh6yGKijlPFqFZzlYSExzVZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,7 +203,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580931428880</updated>
       <workItem from="1580931432117" duration="1902000" />
-      <workItem from="1580935419895" duration="3311000" />
+      <workItem from="1580935419895" duration="3446000" />
     </task>
     <servers />
   </component>
