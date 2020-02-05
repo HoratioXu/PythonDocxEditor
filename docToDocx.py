@@ -5,11 +5,11 @@ from win32com import client
 def doc_to_docx(path):
     if os.path.splitext(path)[1] == ".doc":
         word = client.Dispatch('Word.Application')
-        doc = word.Documents.Open(path)  # 目标路径下的文件
-        doc.SaveAs(os.path.splitext(path)[0] + ".docx", 16)  # 转化后路径下的文件
+        doc = word.Documents.Open(path)
+        doc.SaveAs(os.path.splitext(path)[0] + ".docx", 16)
         doc.Close()
         word.Quit()
-        print("转换完成")
+        print("Done!")
 
 
 def find_file(path, ext, file_list = []):
