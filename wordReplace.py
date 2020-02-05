@@ -1,11 +1,12 @@
 from docx import Document
 import os
+import docxToPdf as createPdf
 
 # Variables
-COMPANY_NAME = "Microsoft"
+COMPANY_NAME = "new company"
 DICT = {
     "send_date": "Feb 05 2020",
-    "namecompany": "MicroSoft",
+    "namecompany": "new company",
     "company_address": "Vancouver, BC, CA"
 }
 
@@ -24,6 +25,7 @@ def main():
             document = Document(oldFile)
             document = check(document)
             document.save(newFile)
+            createPdf.docx_to_pdf(newFile, file_path + "\\" + "cover_letter.pdf")
 
 
 def check(document):
@@ -45,6 +47,7 @@ def check(document):
                     para.runs[i].text = para.runs[i].text.replace(key, value)
 
     return document
+
 
 # Create a new folder
 def mkdir(path):

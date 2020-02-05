@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fb2479e-ae86-46f9-962b-493eb3fdbc50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docxToPdf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordReplace.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordReplace.py" afterDir="false" />
     </list>
@@ -39,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.wordReplace">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="docxEditingScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,6 +101,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docxToPdf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="docxEditingScript" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/docxToPdf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,6 +215,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.wordReplace" />
+        <item itemvalue="Python.docxToPdf" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +230,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580931428880</updated>
       <workItem from="1580931432117" duration="1902000" />
-      <workItem from="1580935419895" duration="4991000" />
+      <workItem from="1580935419895" duration="7557000" />
     </task>
     <servers />
   </component>
@@ -230,6 +254,7 @@
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/wordEditor$wordReplace.coverage" NAME="wordReplace Coverage Results" MODIFIED="1580941622362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wordEditor$wordReplace.coverage" NAME="wordReplace Coverage Results" MODIFIED="1580944149939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/docxEditingScript$docxToPdf.coverage" NAME="docxToPdf Coverage Results" MODIFIED="1580943548394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
