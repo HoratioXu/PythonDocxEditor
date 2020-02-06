@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fb2479e-ae86-46f9-962b-493eb3fdbc50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docxToPdf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordReplace.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordReplace.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +228,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580931428880</updated>
       <workItem from="1580931432117" duration="1902000" />
-      <workItem from="1580935419895" duration="7557000" />
+      <workItem from="1580935419895" duration="8928000" />
     </task>
     <servers />
   </component>
