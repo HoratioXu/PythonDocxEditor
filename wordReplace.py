@@ -1,18 +1,25 @@
 from docx import Document
 import os
 import docxToPdf as createPdf
+from datetime import datetime
 
 # Variables
-COMPANY_NAME = "new company"
+COMPANY_NAME = "Procom"
+TIME = datetime.now().strftime("%b %Y %d")
+V = "Vancouver, BC"
+R = "Richmond, BC"
+B = "Burnaby, BC"
+VI = "Victoria, BC"
+
 DICT = {
-    "send_date": "Feb 05 2020",
-    "namecompany": "new company",
-    "company_address": "Vancouver, BC, CA"
+    "send_date": TIME,
+    "namecompany": COMPANY_NAME,
+    "company_address": R
 }
 
 
-OLDPATH = "C:\\Users\\horatio xu\\Desktop\\files\\personal\\CV"
-NEW_FOLDER_PATH = "C:\\Users\horatio xu\\Desktop\\files\personal\\Company\\" + COMPANY_NAME
+OLDPATH = "C:\\Users\\horatio xu\\Desktop\\files\\Career\\CV"
+NEW_FOLDER_PATH = "C:\\Users\horatio xu\\Desktop\\files\\Career\\Company\\" + COMPANY_NAME
 
 
 def main():
