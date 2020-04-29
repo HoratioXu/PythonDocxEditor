@@ -4,17 +4,18 @@ import docxToPdf as createPdf
 from datetime import datetime
 
 # Variables
-COMPANY_NAME = "Procom"
-TIME = datetime.now().strftime("%b %Y %d")
+COMPANY_NAME = "ECAD Labs"
+TIME = datetime.now().strftime("%b %d %Y")
 V = "Vancouver, BC"
 R = "Richmond, BC"
 B = "Burnaby, BC"
 VI = "Victoria, BC"
+CA = "Canada"
 
 DICT = {
     "send_date": TIME,
     "namecompany": COMPANY_NAME,
-    "company_address": R
+    "company_address": V
 }
 
 
